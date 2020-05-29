@@ -1,0 +1,38 @@
+body{
+    background-image:url(backG.jpg);
+    background-size: cover;
+}
+.content{
+    width: 50%;
+    height:30% ;
+    position: absolute;
+    left:25%;
+    top:35%;
+ 
+    text-align: center;
+}
+.window{
+    height:80% ;
+    border: 5px solid white;
+    border-radius: 5%;
+}
+.select{
+    padding-top: 8px;
+}
+#w_stopwatch,#w_timer{
+    display: none;
+    color: white;
+}
+input[type=number]{
+    width: 50px;
+}
+h1{
+    font-size: 80px;
+    color: white;
+    margin :-20px 0px 0px 0px;
+    text-shadow: 2px 2px black;
+}
+h3{
+    margin: 30px 0px 0px 0px;
+    color: white;
+}
